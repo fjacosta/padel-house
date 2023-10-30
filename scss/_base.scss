@@ -1,0 +1,42 @@
+$color_h1: #e63946;
+$color_h2: #1d3557;
+$color_primario: #a8dadc;
+$color_parrafo: #e29578;
+$color_menu:#0099FF;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: $color_h1;
+}
+
+h2 {
+    color: $color_h2;
+}
+
+p {
+    color: $color_parrafo;
+    font-size: 1.5rem;
+}
+
+.section {
+    margin-top: 30px;
+    background-color: $color_primario; // #457b9d;  
+        padding: 30px 0px 30px 0px;
+}
