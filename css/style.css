@@ -59,6 +59,13 @@ footer {
   margin-left: 10px;
 }
 
+.caja-cancha img {
+  box-shadow: 2px 2px 4px rgba(33, 20, 221, 0.4);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px 0px 5px 0px;
+}
+
 .caja-articulo img {
   box-shadow: 2px 2px 4px rgba(33, 20, 221, 0.4);
   padding: 5px;
@@ -76,6 +83,13 @@ footer {
   width: 10rem;
   margin-top: 20px;
   margin-left: 10px;
+}
+
+.caja-cancha img {
+  box-shadow: 2px 2px 4px rgba(33, 20, 221, 0.4);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px 0px 5px 0px;
 }
 
 .caja-articulo img {
