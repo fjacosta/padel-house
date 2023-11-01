@@ -1,11 +1,48 @@
+// .boton-submit{
+//     color:white;
+//     background-color: $color_background_boton;
+//     border:3px;
+//     border-radius: 5px;
+//     padding: 5px 30px 5px 30px;
+//     font-size: 18px;
+//     display: block;
 
-.boton-submit{
-    color:white;
-    background-color: rgb(7, 61, 14);
-    border:3px;
-    border-radius: 5px;
-    padding: 5px 30px 5px 30px;
-    font-size: 18px;
-    display: block;
-       
-    } 
+//     }
+.boton-enviar {
+     text-transform: uppercase;
+     text-decoration: none;
+     color: white; // rgb(27, 27, 27);
+     background-color: $color_background_boton;
+     padding: 10px 30px;
+     border: 1px solid;
+     border-radius: 1000px !important;
+     display: inline-block;
+     transition: all .2s;
+     position: relative;
+
+     &:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 10px 20px $color_sombra;//rgba(27, 27, 27, .5);
+     }
+
+     &::after {
+          content: "";
+          display: inline-block;
+          height: 100%;
+          width: 100%;
+          border-radius: 100px;
+          top: 0;
+          left: 0;
+          position: absolute;
+          z-index: -1;
+          transition: all .3s;
+     }
+
+     &:hover::after {
+          background-color:$color_sombra; 
+          transform: scaleX(1.4) scaleY(1.5);
+          opacity: 0;
+     }
+
+
+}
