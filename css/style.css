@@ -179,23 +179,23 @@ footer {
   transform: scale(0.95) rotateZ(1.7deg);
 }
 
-.boton-enviar {
+.boton {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
   background-color: rgb(7, 61, 14);
-  padding: 10px 30px;
+  padding: 10px 20px;
   border: 1px solid;
   border-radius: 1000px !important;
   display: inline-block;
   transition: all 0.2s;
   position: relative;
 }
-.boton-enviar:hover {
+.boton:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(33, 20, 221, 0.4);
 }
-.boton-enviar::after {
+.boton::after {
   content: "";
   display: inline-block;
   height: 100%;
@@ -207,7 +207,7 @@ footer {
   z-index: -1;
   transition: all 0.3s;
 }
-.boton-enviar:hover::after {
+.boton:hover::after {
   background-color: rgba(33, 20, 221, 0.4);
   transform: scaleX(1.4) scaleY(1.5);
   opacity: 0;

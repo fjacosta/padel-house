@@ -8,12 +8,12 @@
 //     display: block;
 
 //     }
-.boton-enviar {
+.boton {
      text-transform: uppercase;
      text-decoration: none;
      color: white; // rgb(27, 27, 27);
      background-color: $color_background_boton;
-     padding: 10px 30px;
+     padding: 10px 20px;
      border: 1px solid;
      border-radius: 1000px !important;
      display: inline-block;
@@ -46,3 +46,7 @@
 
 
 }
+
+
+
+
